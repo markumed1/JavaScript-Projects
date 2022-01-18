@@ -1,5 +1,5 @@
 function plusEquals () {
-    var x = 3;                  //add the variable x: out put of x is 5//
+    var x = 3;                  //add the variable x = 3 with x += 2: output of x is 5//
     x += 2;
     document.getElementById("demo1").innerHTML = x;
 
