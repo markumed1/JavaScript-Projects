@@ -5,6 +5,6 @@ function plusEquals () {
 
 }
 
-function myFunction() {             //function that will output "Hello World" in a p element with id="demo2"//
+function myFunction() {             //function that will output "Hello white space" in a p element with id="demo2"//
     document.getElementById("demo2").innerHTML = "Hello white space";
 }
