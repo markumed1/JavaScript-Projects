@@ -1,11 +1,34 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>
-            My title
+            Basic JavaScript
         </title>
     </head>
     <body>
-        <h1>A Heading</h1>
+        <h1><u>Java script Math.random() assignment</u></h1>
+
+    <!--Calling subraction_Function from .js, button out: outcome 5 - 2 = 3-->
+        <div>
+            <button onclick="subtraction_Function()">Subract</button>
+            <p id="Subtraction"></p>
+        </div>
+
+    <!--Math. round-->
+        <div>
+            <p id="demo"></p>
+            <script>
+                document.getElementById("demo").innerHTML = Math.round(4.6); //returns the value of x rounded to the nearest integer.
+            </script>
+        </div>
+
+    <!--Math.sin-->
+        <div>
+            <p id="sin"></p>
+        </div>
+        
+         
+     
         <script src="main.js"></script>
     </body>
 </html>
