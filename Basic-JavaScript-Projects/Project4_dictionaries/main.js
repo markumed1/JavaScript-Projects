@@ -5,6 +5,6 @@ function my_Dictionary() {
         Year: 2022,
         Color: "Black",
     };
-    delete Car.Model;
-    document.getElementById("Dictionary").innerHTML = Car.Model;
+    delete Car.Model; //delete object properties with 'delete keyword. 
+    document.getElementById("Dictionary").innerHTML = Car.Model; //output: undefined
 }
