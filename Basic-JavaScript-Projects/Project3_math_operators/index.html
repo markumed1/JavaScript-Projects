@@ -6,24 +6,34 @@
         </title>
     </head>
     <body>
-        <h1><u>Java script Math.random() assignment</u></h1>
+        <h1><u>Java script assignment</u></h1>
+
+        <!--Adding function outcome: 15-->
+        <div>
+            <button onclick="addition_Function()">Addition</button>
+            <p id="Addition"></p>
+        </div>
 
     <!--Calling subraction_Function from .js, button out: outcome 5 - 2 = 3-->
         <div>
-                <button onclick="subtraction_Function()">Subract</button>
-                <p id="Subtraction"></p>
+            <button onclick="subtraction_Function()">Subract</button>
+             <p id="Subtraction"></p>
         </div>
 
     <!--Math.round-->
         <div>
             <button onclick="round()">Math round</button>
             <p id="round"></p>
-        
         </div>
 
-    <!--Math.sin-->
+    <!--Math.random-->
         <div>
-            <p id="sin"></p>
+            <button onclick="rando()">Math random</button>
+            <p id="demo"></p>
+
+            <script>
+            document.getElementById("demo").innerHTML = Math.random();
+            </script>
         </div>
 
     <!--Increment-->

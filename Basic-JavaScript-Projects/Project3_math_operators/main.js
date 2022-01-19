@@ -1,13 +1,20 @@
+//Addition
+function addition_Function() {
+    var Addition = 10 + 5;
+    document.getElementById("Addition").innerHTML = "10 + 5 = " + Addition;
+}
+
 //Subtraction
 function subtraction_Function() {
-    var Subtraction = 6 - 9;
+    var Subtraction = 5 - 2;
     document.getElementById("Subtraction").innerHTML = "5 - 2 = " + Subtraction;
 }
 
-
+//Math round
 function round() {
-    document.getElementById("round").innerHTML = "25.8 " + Math.round(25.8);
-}
+    document.getElementById("round").innerHTML = "25.8 " + Math.round(25.8);}
+
+
 //Multiplication and Division
 function Multiplication() {
     var simple_Math = 6 * 9;
