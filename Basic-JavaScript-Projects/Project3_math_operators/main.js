@@ -4,6 +4,10 @@ function subtraction_Function() {
     document.getElementById("Subtraction").innerHTML = "5 - 2 = " + Subtraction;
 }
 
+
+function round() {
+    document.getElementById("round").innerHTML = "25.8 " + Math.round(25.8);
+}
 //Multiplication and Division
 function Multiplication() {
     var simple_Math = 6 * 9;
@@ -36,25 +40,20 @@ function negative_operator() {
 }
 
 // Increment and decrement op//////////////
-var x = 5; 
-    x++;
-document.write(x); //This would increment from 5 to 6.
-
-
-
-var x = 5.25; 
-    x--;
-document.write(x); //This would show up as "4.25"
-
-function my_Dictionary() {
-    var Animal = {
-        Species:"Dog",
-        Color:"Black",
-        Breed:"Labrador",
-        Age:5,
-        Sound: "Bark!"
-    }
-    document.getElementById("Dictionary").innerHTML = Animal.Sound;
+var Incrementnumber = 5;
+function Increment() {
+     
+    Incrementnumber++;
+    document.getElementById("Increment").innerHTML = Incrementnumber;
 }
+
+
+var Decrementnumber = 5.25;
+function Decrement() {
+    Decrementnumber--;
+    document.getElementById("Decrement").innerHTML = Decrementnumber;
+}
+   
+
 
 console.log(document.getElementById("Math")) 
