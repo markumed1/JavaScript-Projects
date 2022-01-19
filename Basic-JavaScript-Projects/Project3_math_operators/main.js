@@ -46,6 +46,15 @@ var x = 5.25;
     x--;
 document.write(x); //This would show up as "4.25"
 
-
+function my_Dictionary() {
+    var Animal = {
+        Species:"Dog",
+        Color:"Black",
+        Breed:"Labrador",
+        Age:5,
+        Sound: "Bark!"
+    }
+    document.getElementById("Dictionary").innerHTML = Animal.Sound;
+}
 
 console.log(document.getElementById("Math")) 
