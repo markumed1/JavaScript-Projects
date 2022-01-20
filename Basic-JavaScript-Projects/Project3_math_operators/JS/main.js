@@ -50,8 +50,8 @@ function Decrement() {
 }
    
 
-// //math.random()
-// document.getElementById("random").innerHTML = Math.random;
+//math.random()
+window.alert(Math.random() * 100);
 
 
 console.log(document.getElementById("Math")) 
