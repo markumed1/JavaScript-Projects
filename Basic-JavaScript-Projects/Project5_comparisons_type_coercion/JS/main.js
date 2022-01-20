@@ -6,6 +6,14 @@ document.write("<h1>Howzit!</h1><p>Shoots kden!</p>")
     refresh webpage
 ============================================================================*/
 
+/*=====================
+    Type of Operator
+=======================*/
+document.write(typeof "word");
+
+// document.write(typeof 3);
+
+
 /*======================
     Coercion
 ========================*/
@@ -72,9 +80,9 @@ Not a number assignment
 
 // document.write(5 > 10 || 10 > 20);
 
-function not_Function() {
-    document.getElementById("Not").innerHTML = !(20 > 10);
-}
+// function not_Function() {
+//     document.getElementById("Not").innerHTML = !(20 > 10);
+// }
 
 // function not_Function() {
 //     document.getElementById("Not").innerHTML = !(5 > 10);
