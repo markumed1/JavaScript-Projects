@@ -1,7 +1,7 @@
 // /*==========================================
 //          Concat Method
 // ============================================*/
-// function full_Sentence() {
+// function full_Sentence() {       //concat() method concatenates aka "connects" two or more strings.
 //     var part_1 = "I have ";
 //     var part_2 = "made this ";
 //     var part_3 = "into a complete ";
@@ -29,7 +29,7 @@
 // /*=============================
 //         Number Methods
 // ===============================*/
-// function string_Method() {
+// function string_Method() {       //Number methods assist you in working with numbers.
 //     var x=182;
 //     document.getElementById("Numbers_to_string").innerHTML = x.toString();
 // }
@@ -52,7 +52,7 @@
 /*===============================
     valueOf() Method
 =================================*/
-let text = "Hello World!";
-let result = text.valueOf();
+let text = "Hello World!";      //valueOf() returns the primitive value("data that is not an object and has no methods") of a string
+let result = text.valueOf();    
 
 document.getElementById("valueOf").innerHTML = result;
