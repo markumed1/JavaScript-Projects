@@ -91,15 +91,15 @@ document.getElementById("Car_Object").innerHTML = car.description();
 /*=============================
         Break and Continue
 ==============================*/
-let number = "";
+let number = "";                        //A loop with a break statement
 for (let i = 0; i < 10; i++) {
         if (i === 3) { break; }
         text += " The number is " + i + "<br>"
 }
 
-document.getElementById("BNC").innerHTML = text;
+document.getElementById("BNC").innerHTML = text;        
 
-let numbers = "";
+let numbers = "";                               //a loop with a continue statment
 for (let i = 0; i < 10; i++) {
         if (i === 3) { continue; }
         text += " The number is " + i + "<br>";
