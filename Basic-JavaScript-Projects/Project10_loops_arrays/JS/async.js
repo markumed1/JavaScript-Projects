@@ -13,10 +13,10 @@ document.getElementById("loop").innerHTML = text;
 /*===========================
     Length Property
 ============================*/
-let text = "Hello World!";
-let length = text.length;
+// let text = "Hello World!";
+// let length = text.length;
 
-document.getElementById("property").innerHTML = length;
+// document.getElementById("property").innerHTML = length;
 
 /*==========================
         For Loops
@@ -91,10 +91,18 @@ document.getElementById("Car_Object").innerHTML = car.description();
 /*=============================
         Break and Continue
 ==============================*/
-let text = "";
+let number = "";
 for (let i = 0; i < 10; i++) {
         if (i === 3) { break; }
-        text += "The number is " + i + "<br>"
+        text += " The number is " + i + "<br>"
 }
 
 document.getElementById("BNC").innerHTML = text;
+
+let numbers = "";
+for (let i = 0; i < 10; i++) {
+        if (i === 3) { continue; }
+        text += " The number is " + i + "<br>";
+}
+
+document.getElementById("continue").innerHTML = text
