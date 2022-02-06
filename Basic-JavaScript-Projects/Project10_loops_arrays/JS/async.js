@@ -59,50 +59,53 @@ function constant_function() {
 /*==============================
         Let Keyword
 ===============================*/
- var x = 10; // x is 10                 //Redclaring a Variable using "var"
- {
-        var x = 2 //x is 2
- }
- document.getElementById("let").innerHTML = x;
+//  var x = 10; // x is 10                 //Redclaring a Variable using "var"
+//  {
+//         var x = 2 //x is 2
+//  }
+//  document.getElementById("let").innerHTML = x;
  
  /*=============================
         The Return Statement
 ===============================*/
-document.getElementById("Return").innerHTML = myFunction("Mark")
+// document.getElementById("Return").innerHTML = myFunction("Mark")
 
-function myFunction(name) {
-        return "Hello " + name;
-}
+// function myFunction(name) {
+//         return "Hello " + name;
+// }
 
 /*===================
         Objects
 ====================*/
-let car = {
-        make: "Dodge ",
-        model: "Viper ",
-        year: "2021 ",
-        color: "red ",
-        description : function() {
-                return "The car is a " + this.year + this.color + this.make + this.model;
-        }
-};
-document.getElementById("Car_Object").innerHTML = car.description();
+// let car = {
+//         make: "Dodge ",
+//         model: "Viper ",
+//         year: "2021 ",
+//         color: "red ",
+//         description : function() {
+//                 return "The car is a " + this.year + this.color + this.make + this.model;
+//         }
+// };
+// document.getElementById("Car_Object").innerHTML = car.description();
 
 /*=============================
         Break and Continue
 ==============================*/
-let number = "";                        //A loop with a break statement
-for (let i = 0; i < 10; i++) {
-        if (i === 3) { break; }
-        text += " The number is " + i + "<br>"
+function break_and_continue () {
+        
+        let number = "";                        //A loop with a break statement
+        for (let i = 0; i < 10; i++) {
+                if (i === 3) { break; }
+                text += " The number is " + i + "<br>"
+        }
+        
+        document.getElementById("BNC").innerHTML = text;        
+        
+        let numbers = "";                               //a loop with a continue statment
+        for (let i = 0; i < 10; i++) {
+                if (i === 3) { continue; }
+                text += " The number is " + i + "<br>";
+        }
+        
+        document.getElementById("continue").innerHTML = text
 }
-
-document.getElementById("BNC").innerHTML = text;        
-
-let numbers = "";                               //a loop with a continue statment
-for (let i = 0; i < 10; i++) {
-        if (i === 3) { continue; }
-        text += " The number is " + i + "<br>";
-}
-
-document.getElementById("continue").innerHTML = text
