@@ -70,7 +70,7 @@ h1 {
     width:auto;
 }
 
-/* The Modal (background) */
+/* The Modal (background)
 .modal {
     display: none;
    position: relative;
@@ -82,7 +82,7 @@ h1 {
    height: 100%;
    overflow: auto;
    background-color: black;
-}
+} */
 
 /* Modal Content */
 .modal-content {
