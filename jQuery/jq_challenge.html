@@ -16,11 +16,12 @@
                 // was created after the click listeners were applied above, so it
                 // will not have the same click behaviour as its peers
                 $("<button class='alert'>Alert!</button>").appendTo(document.body);
-            });
                 // Event setup using a convenience method
-                $("button.alert").click(function() {
-                    console.log("You clicked a paragraph!");
-            });          
+                $("button.alert").on({ "click": function() {
+                    console.log("You clicked a paragraph!");}
+            });        
+            });
+                  
         </script>
     </body>
 </html>
