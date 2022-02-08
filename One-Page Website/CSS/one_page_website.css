@@ -57,32 +57,32 @@ h1 {
 .row > .column {
     padding: 0 8px;
 }
-
-.row::after {
+  
+.row:after {
     content: "";
     display: table;
     clear: both;
 }
-
-/* Create four equal columns that floats next to each other */
+  
+/* Create four equal columns that floats next to eachother */
 .column {
     float: left;
-    width:auto;
+    width: 23%;
 }
 
-/* The Modal (background)
+/* The Modal (background) */
 .modal {
     display: none;
-   position: relative;
-   z-index: 1;
-   padding-top: 100%;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   overflow: auto;
-   background-color: black;
-} */
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
 
 /* Modal Content */
 .modal-content {
@@ -91,7 +91,7 @@ h1 {
     margin: auto;
     padding: 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 /* The Close Button */
@@ -102,8 +102,8 @@ h1 {
     right: 25px;
     font-size: 35px;
     font-weight: bold;
-}
-
+  }
+  
 .close:hover,
 .close:focus {
     color: #999;
@@ -114,9 +114,9 @@ h1 {
 /* Hide the slides by default */
 .mySlides {
     display: none;
-}
-
-/*Next & previous buttons */
+  }
+  
+  /* Next & previous buttons */
 .prev,
 .next {
     cursor: pointer;
@@ -155,7 +155,7 @@ h1 {
     top: 0;
 }
   
- /* Caption text */
+/* Caption text */
 .caption-container {
     text-align: center;
     background-color: black;
@@ -163,12 +163,12 @@ h1 {
     color: white;
 }
   
-img.massage {
+img.demo {
     opacity: 0.6;
 }
   
 .active,
-.massage:hover {
+.demo:hover {
     opacity: 1;
 }
   
