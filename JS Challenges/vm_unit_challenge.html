@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/vm_CSS.css">
+        <script src="./JS/vm_JS.js"></script>
+        <title>VM Challenge</title>
+    </head>
+    <body>
+        <!-- FADE CHALLENGE -->
+        <script>
+            document.body.classList.add('fade-out');
+
+            window.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.remove('fade-out');
+            });
+        </script>
+
+        <!-- VW UNIT CHALLENGE -->
+        <h1 style="font-size: 10vw;">Responsive Text</h1>       
+
+        <p style="font-size:5vw;">Use the "vw" when sizing scales</p>
+
+        <p style="font-size:5vw;">Use the "vw" when sizing the text. 10vw will set the size
+            to 10% of the viewport width.</p>
+
+        <p>viewport is the broswer window size. 1vw = 1% of viewport width. If the viewport is
+            50cm wide, 1vw is 0.5cm.</p>
+
+        <!-- FORM CHALLENGE -->
+        <h2>HTML Form</h2>
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()"
+        method="post">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br>
+            <label for="lname">Phone Number</label><br>
+            <input type="text" id="pnumber" name="pnumber" value="808-808-808"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
